@@ -19,6 +19,29 @@ I understand that there are several features missing in Egg Drop. A list of thes
 To make things clear, the artwork used in Egg Drop are not of my original creation.
 These images were &amp; may be found on Google Images. Unfortunately, I do not have the names of their rightful owners.
 
+# Screenshots
+        Initial Start
+![alt tag](https://raw.githubusercontent.com/anvilo/4661--final/master/Screenshots/Start.PNG)
+
 |
 
-Screenshots of the Egg Drop are uploaded inside the repository under the directory named 'Screenshots'.
+        Standing Idle
+![alt tag](https://raw.githubusercontent.com/anvilo/4661--final/master/Screenshots/Idle.PNG)
+
+|
+
+        Running
+![alt tag](https://raw.githubusercontent.com/anvilo/4661--final/master/Screenshots/Running.PNG)
+
+|
+
+        Game Over
+![alt tag](https://raw.githubusercontent.com/anvilo/4661--final/master/Screenshots/GameOver.PNG)
+
+|
+
+        Replay Option
+![alt tag](https://raw.githubusercontent.com/anvilo/4661--final/master/Screenshots/Replay.PNG)
+
+
+

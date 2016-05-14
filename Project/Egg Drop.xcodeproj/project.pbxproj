@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A12B04B11CC58EDE00E467BB /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B04B01CC58EDE00E467BB /* GameOver.swift */; };
+		A1A997411CBEEDF60044FCE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A997401CBEEDF60044FCE0 /* Assets.xcassets */; };
+		A1F705941CBD55DF00AC09CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F705931CBD55DF00AC09CE /* AppDelegate.swift */; };
+		A1F705961CBD55DF00AC09CE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A1F705951CBD55DF00AC09CE /* GameScene.sks */; };
+		A1F705981CBD55DF00AC09CE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F705971CBD55DF00AC09CE /* GameScene.swift */; };
+		A1F7059A1CBD55DF00AC09CE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F705991CBD55DF00AC09CE /* GameViewController.swift */; };
+		A1F7059D1CBD55DF00AC09CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F7059B1CBD55DF00AC09CE /* Main.storyboard */; };
+		A1F705A21CBD55DF00AC09CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F705A01CBD55DF00AC09CE /* LaunchScreen.storyboard */; };
+		A1F705AD1CBD55DF00AC09CE /* ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F705AC1CBD55DF00AC09CE /* ProjectTests.swift */; };
+		A1F705B81CBD55DF00AC09CE /* ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F705B71CBD55DF00AC09CE /* ProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1F705A91CBD55DF00AC09CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1F705881CBD55DF00AC09CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1F7058F1CBD55DF00AC09CE;
+			remoteInfo = Project;
+		};
+		A1F705B41CBD55DF00AC09CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1F705881CBD55DF00AC09CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1F7058F1CBD55DF00AC09CE;
+			remoteInfo = Project;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A12B04B01CC58EDE00E467BB /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		A1A997401CBEEDF60044FCE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1F705901CBD55DF00AC09CE /* Egg Drop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Egg Drop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F705931CBD55DF00AC09CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1F705951CBD55DF00AC09CE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		A1F705971CBD55DF00AC09CE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A1F705991CBD55DF00AC09CE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A1F7059C1CBD55DF00AC09CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1F705A11CBD55DF00AC09CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1F705A31CBD55DF00AC09CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F705A81CBD55DF00AC09CE /* Egg Drop.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Egg Drop.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F705AC1CBD55DF00AC09CE /* ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTests.swift; sourceTree = "<group>"; };
+		A1F705AE1CBD55DF00AC09CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F705B31CBD55DF00AC09CE /* Egg Drop.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Egg Drop.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F705B71CBD55DF00AC09CE /* ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectUITests.swift; sourceTree = "<group>"; };
+		A1F705B91CBD55DF00AC09CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1F7058D1CBD55DF00AC09CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F705A51CBD55DF00AC09CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F705B01CBD55DF00AC09CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1F705871CBD55DF00AC09CE = {
+			isa = PBXGroup;
+			children = (
+				A1F705921CBD55DF00AC09CE /* Project */,
+				A1F705AB1CBD55DF00AC09CE /* ProjectTests */,
+				A1F705B61CBD55DF00AC09CE /* ProjectUITests */,
+				A1F705911CBD55DF00AC09CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1F705911CBD55DF00AC09CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1F705901CBD55DF00AC09CE /* Egg Drop.app */,
+				A1F705A81CBD55DF00AC09CE /* Egg Drop.xctest */,
+				A1F705B31CBD55DF00AC09CE /* Egg Drop.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1F705921CBD55DF00AC09CE /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				A1F705931CBD55DF00AC09CE /* AppDelegate.swift */,
+				A1F705951CBD55DF00AC09CE /* GameScene.sks */,
+				A1F705971CBD55DF00AC09CE /* GameScene.swift */,
+				A12B04B01CC58EDE00E467BB /* GameOver.swift */,
+				A1F705991CBD55DF00AC09CE /* GameViewController.swift */,
+				A1F7059B1CBD55DF00AC09CE /* Main.storyboard */,
+				A1A997401CBEEDF60044FCE0 /* Assets.xcassets */,
+				A1F705A01CBD55DF00AC09CE /* LaunchScreen.storyboard */,
+				A1F705A31CBD55DF00AC09CE /* Info.plist */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		A1F705AB1CBD55DF00AC09CE /* ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1F705AC1CBD55DF00AC09CE /* ProjectTests.swift */,
+				A1F705AE1CBD55DF00AC09CE /* Info.plist */,
+			);
+			path = ProjectTests;
+			sourceTree = "<group>";
+		};
+		A1F705B61CBD55DF00AC09CE /* ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1F705B71CBD55DF00AC09CE /* ProjectUITests.swift */,
+				A1F705B91CBD55DF00AC09CE /* Info.plist */,
+			);
+			path = ProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1F7058F1CBD55DF00AC09CE /* Egg Drop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F705BC1CBD55DF00AC09CE /* Build configuration list for PBXNativeTarget "Egg Drop" */;
+			buildPhases = (
+				A1F7058C1CBD55DF00AC09CE /* Sources */,
+				A1F7058D1CBD55DF00AC09CE /* Frameworks */,
+				A1F7058E1CBD55DF00AC09CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Egg Drop";
+			productName = Project;
+			productReference = A1F705901CBD55DF00AC09CE /* Egg Drop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1F705A71CBD55DF00AC09CE /* Egg DropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F705BF1CBD55DF00AC09CE /* Build configuration list for PBXNativeTarget "Egg DropTests" */;
+			buildPhases = (
+				A1F705A41CBD55DF00AC09CE /* Sources */,
+				A1F705A51CBD55DF00AC09CE /* Frameworks */,
+				A1F705A61CBD55DF00AC09CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1F705AA1CBD55DF00AC09CE /* PBXTargetDependency */,
+			);
+			name = "Egg DropTests";
+			productName = ProjectTests;
+			productReference = A1F705A81CBD55DF00AC09CE /* Egg Drop.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1F705B21CBD55DF00AC09CE /* Egg DropUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F705C21CBD55DF00AC09CE /* Build configuration list for PBXNativeTarget "Egg DropUITests" */;
+			buildPhases = (
+				A1F705AF1CBD55DF00AC09CE /* Sources */,
+				A1F705B01CBD55DF00AC09CE /* Frameworks */,
+				A1F705B11CBD55DF00AC09CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1F705B51CBD55DF00AC09CE /* PBXTargetDependency */,
+			);
+			name = "Egg DropUITests";
+			productName = ProjectUITests;
+			productReference = A1F705B31CBD55DF00AC09CE /* Egg Drop.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1F705881CBD55DF00AC09CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = UNO;
+				TargetAttributes = {
+					A1F7058F1CBD55DF00AC09CE = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2J648CL6ER;
+					};
+					A1F705A71CBD55DF00AC09CE = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2J648CL6ER;
+						TestTargetID = A1F7058F1CBD55DF00AC09CE;
+					};
+					A1F705B21CBD55DF00AC09CE = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2J648CL6ER;
+						TestTargetID = A1F7058F1CBD55DF00AC09CE;
+					};
+				};
+			};
+			buildConfigurationList = A1F7058B1CBD55DF00AC09CE /* Build configuration list for PBXProject "Egg Drop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1F705871CBD55DF00AC09CE;
+			productRefGroup = A1F705911CBD55DF00AC09CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1F7058F1CBD55DF00AC09CE /* Egg Drop */,
+				A1F705A71CBD55DF00AC09CE /* Egg DropTests */,
+				A1F705B21CBD55DF00AC09CE /* Egg DropUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1F7058E1CBD55DF00AC09CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F705961CBD55DF00AC09CE /* GameScene.sks in Resources */,
+				A1F705A21CBD55DF00AC09CE /* LaunchScreen.storyboard in Resources */,
+				A1A997411CBEEDF60044FCE0 /* Assets.xcassets in Resources */,
+				A1F7059D1CBD55DF00AC09CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F705A61CBD55DF00AC09CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F705B11CBD55DF00AC09CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1F7058C1CBD55DF00AC09CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F705981CBD55DF00AC09CE /* GameScene.swift in Sources */,
+				A1F7059A1CBD55DF00AC09CE /* GameViewController.swift in Sources */,
+				A1F705941CBD55DF00AC09CE /* AppDelegate.swift in Sources */,
+				A12B04B11CC58EDE00E467BB /* GameOver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F705A41CBD55DF00AC09CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F705AD1CBD55DF00AC09CE /* ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F705AF1CBD55DF00AC09CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F705B81CBD55DF00AC09CE /* ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1F705AA1CBD55DF00AC09CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1F7058F1CBD55DF00AC09CE /* Egg Drop */;
+			targetProxy = A1F705A91CBD55DF00AC09CE /* PBXContainerItemProxy */;
+		};
+		A1F705B51CBD55DF00AC09CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1F7058F1CBD55DF00AC09CE /* Egg Drop */;
+			targetProxy = A1F705B41CBD55DF00AC09CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1F7059B1CBD55DF00AC09CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1F7059C1CBD55DF00AC09CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1F705A01CBD55DF00AC09CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1F705A11CBD55DF00AC09CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1F705BA1CBD55DF00AC09CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1F705BB1CBD55DF00AC09CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1F705BD1CBD55DF00AC09CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Project/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cs.4661.Project;
+				PRODUCT_NAME = "Egg Drop";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A1F705BE1CBD55DF00AC09CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Project/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cs.4661.Project;
+				PRODUCT_NAME = "Egg Drop";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A1F705C01CBD55DF00AC09CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = ProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cs.4661.ProjectTests;
+				PRODUCT_NAME = "Egg Drop";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Egg Drop.app/Egg Drop";
+			};
+			name = Debug;
+		};
+		A1F705C11CBD55DF00AC09CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cs.4661.ProjectTests;
+				PRODUCT_NAME = "Egg Drop";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Egg Drop.app/Egg Drop";
+			};
+			name = Release;
+		};
+		A1F705C31CBD55DF00AC09CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = ProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cs.4661.ProjectUITests;
+				PRODUCT_NAME = "Egg Drop";
+				TEST_TARGET_NAME = Project;
+			};
+			name = Debug;
+		};
+		A1F705C41CBD55DF00AC09CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cs.4661.ProjectUITests;
+				PRODUCT_NAME = "Egg Drop";
+				TEST_TARGET_NAME = Project;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1F7058B1CBD55DF00AC09CE /* Build configuration list for PBXProject "Egg Drop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F705BA1CBD55DF00AC09CE /* Debug */,
+				A1F705BB1CBD55DF00AC09CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F705BC1CBD55DF00AC09CE /* Build configuration list for PBXNativeTarget "Egg Drop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F705BD1CBD55DF00AC09CE /* Debug */,
+				A1F705BE1CBD55DF00AC09CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F705BF1CBD55DF00AC09CE /* Build configuration list for PBXNativeTarget "Egg DropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F705C01CBD55DF00AC09CE /* Debug */,
+				A1F705C11CBD55DF00AC09CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F705C21CBD55DF00AC09CE /* Build configuration list for PBXNativeTarget "Egg DropUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F705C31CBD55DF00AC09CE /* Debug */,
+				A1F705C41CBD55DF00AC09CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1F705881CBD55DF00AC09CE /* Project object */;
+}
